@@ -174,12 +174,12 @@ enum ChatModel {
       //Stanford
       case ChatModel.alpaca7B:
         return 'TOGETHERCOMPUTER/ALPACA-7B';
-      case  CjatModel.llama3_1InstructTurbo8B:
-        return 'meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo'
-      case  CjatModel.llama3_1InstructTurbo70B:
-        return 'meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo'
-      case  CjatModel.llama3_1InstructTurbo405B:
-        return 'meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo'
+      case  ChatModel.llama3_1InstructTurbo8B:
+        return 'meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo';
+      case  ChatModel.llama3_1InstructTurbo70B:
+        return 'meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo';
+      case  ChatModel.llama3_1InstructTurbo405B:
+        return 'meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo';
       default:
         return name;
     }

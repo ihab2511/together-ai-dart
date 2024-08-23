@@ -48,7 +48,10 @@ enum ChatModel {
   chronosHermes13B,
   platypus2Instruct70B,
   mythoMaxL213B,
-  alpaca7B;
+  alpaca7B,
+  llama3_1InstructTurbo8B,
+  llama3_1InstructTurbo70B,
+  llama3_1InstructTurbo405B;
 
   @override
   String toString() {
@@ -171,6 +174,12 @@ enum ChatModel {
       //Stanford
       case ChatModel.alpaca7B:
         return 'TOGETHERCOMPUTER/ALPACA-7B';
+      case  CjatModel.llama3_1InstructTurbo8B:
+        return 'meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo'
+      case  CjatModel.llama3_1InstructTurbo70B:
+        return 'meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo'
+      case  CjatModel.llama3_1InstructTurbo405B:
+        return 'meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo'
       default:
         return name;
     }
